@@ -317,12 +317,14 @@
 		C15F07C81B102E4300502929 /* PSTGridLayoutItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C15F04F21B102C7000502929 /* PSTGridLayoutItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C15F07C91B102E4300502929 /* PSTGridLayoutRow.h in Headers */ = {isa = PBXBuildFile; fileRef = C15F04F41B102C7000502929 /* PSTGridLayoutRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C15F07CA1B102E4300502929 /* PSTGridLayoutSection.h in Headers */ = {isa = PBXBuildFile; fileRef = C15F04F61B102C7000502929 /* PSTGridLayoutSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1F6947F1B10458300008B8B /* rangeSliderTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = C15F05411B102C7100502929 /* rangeSliderTrack.png */; };
-		C1F694801B10458300008B8B /* rangeSliderTrack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15F05421B102C7100502929 /* rangeSliderTrack@2x.png */; };
-		C1F694811B10458300008B8B /* rangeSliderTrack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15F05431B102C7100502929 /* rangeSliderTrack@3x.png */; };
-		C1F694821B10458300008B8B /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C15F05481B102C7100502929 /* blueArrow.png */; };
-		C1F694831B10458300008B8B /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15F05491B102C7100502929 /* blueArrow@2x.png */; };
 		C1F694871B1045A600008B8B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F694861B1045A600008B8B /* CoreFoundation.framework */; };
+		C1F694D71B10681C00008B8B /* MWPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1F694D61B10681C00008B8B /* MWPhotoBrowser.bundle */; };
+		C1F694D91B10684700008B8B /* JDFlipNumberView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1F694D81B10684700008B8B /* JDFlipNumberView.bundle */; };
+		C1F694DD1B10688400008B8B /* rangeSliderTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F694DA1B10688400008B8B /* rangeSliderTrack.png */; };
+		C1F694DE1B10688400008B8B /* rangeSliderTrack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F694DB1B10688400008B8B /* rangeSliderTrack@2x.png */; };
+		C1F694DF1B10688400008B8B /* rangeSliderTrack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F694DC1B10688400008B8B /* rangeSliderTrack@3x.png */; };
+		C1F694E21B1068A900008B8B /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F694E01B1068A900008B8B /* blueArrow.png */; };
+		C1F694E31B1068A900008B8B /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F694E11B1068A900008B8B /* blueArrow@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -481,7 +483,6 @@
 		C15F04B41B102C7000502929 /* JDFlipImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipImageView.m; sourceTree = "<group>"; };
 		C15F04B51B102C7000502929 /* JDFlipNumberDigitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipNumberDigitView.h; sourceTree = "<group>"; };
 		C15F04B61B102C7000502929 /* JDFlipNumberDigitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberDigitView.m; sourceTree = "<group>"; };
-		C15F04B71B102C7000502929 /* JDFlipNumberView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JDFlipNumberView.bundle; sourceTree = "<group>"; };
 		C15F04B81B102C7000502929 /* JDFlipNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipNumberView.h; sourceTree = "<group>"; };
 		C15F04B91B102C7000502929 /* JDFlipNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberView.m; sourceTree = "<group>"; };
 		C15F04BA1B102C7000502929 /* JDFlipNumberViewImageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipNumberViewImageFactory.h; sourceTree = "<group>"; };
@@ -573,7 +574,6 @@
 		C15F05191B102C7000502929 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		C15F051A1B102C7000502929 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		C15F051B1B102C7000502929 /* MWPhotoBrowser-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MWPhotoBrowser-Prefix.pch"; sourceTree = "<group>"; };
-		C15F051C1B102C7000502929 /* MWPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MWPhotoBrowser.bundle; sourceTree = "<group>"; };
 		C15F052F1B102C7000502929 /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
 		C15F05301B102C7100502929 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
 		C15F05311B102C7100502929 /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
@@ -590,13 +590,8 @@
 		C15F053C1B102C7100502929 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
 		C15F053E1B102C7100502929 /* MARKRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MARKRangeSlider.h; sourceTree = "<group>"; };
 		C15F053F1B102C7100502929 /* MARKRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MARKRangeSlider.m; sourceTree = "<group>"; };
-		C15F05411B102C7100502929 /* rangeSliderTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rangeSliderTrack.png; sourceTree = "<group>"; };
-		C15F05421B102C7100502929 /* rangeSliderTrack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rangeSliderTrack@2x.png"; sourceTree = "<group>"; };
-		C15F05431B102C7100502929 /* rangeSliderTrack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rangeSliderTrack@3x.png"; sourceTree = "<group>"; };
 		C15F05451B102C7100502929 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		C15F05461B102C7100502929 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		C15F05481B102C7100502929 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
-		C15F05491B102C7100502929 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
 		C15F054A1B102C7100502929 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
 		C15F054B1B102C7100502929 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
 		C15F054E1B102C7100502929 /* RTSpinKit9CubeGridAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKit9CubeGridAnimation.h; sourceTree = "<group>"; };
@@ -665,11 +660,18 @@
 		C15F06F11B102CB900502929 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C15F06F21B102CB900502929 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C15F072F1B102CE700502929 /* Utilities.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.pch; sourceTree = "<group>"; };
-		C15F07D91B10440000502929 /* Utilites.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Utilites.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15F07D91B10440000502929 /* UtilitiesResorces.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilitiesResorces.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15F07DC1B10440000502929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1F694861B1045A600008B8B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		C1F6948B1B104AF600008B8B /* webServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = webServices.h; sourceTree = "<group>"; };
 		C1F6948C1B104AF600008B8B /* webServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webServices.m; sourceTree = "<group>"; };
+		C1F694D61B10681C00008B8B /* MWPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MWPhotoBrowser.bundle; sourceTree = "<group>"; };
+		C1F694D81B10684700008B8B /* JDFlipNumberView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JDFlipNumberView.bundle; sourceTree = "<group>"; };
+		C1F694DA1B10688400008B8B /* rangeSliderTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rangeSliderTrack.png; sourceTree = "<group>"; };
+		C1F694DB1B10688400008B8B /* rangeSliderTrack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rangeSliderTrack@2x.png"; sourceTree = "<group>"; };
+		C1F694DC1B10688400008B8B /* rangeSliderTrack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rangeSliderTrack@3x.png"; sourceTree = "<group>"; };
+		C1F694E01B1068A900008B8B /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		C1F694E11B1068A900008B8B /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -723,6 +725,7 @@
 			children = (
 				C15F04171B102C4400502929 /* Utilities */,
 				C15F042C1B102C6F00502929 /* Library */,
+				C1F694D51B10680A00008B8B /* Resources */,
 				C1F6948A1B104ADB00008B8B /* demoLib */,
 				C15F07DA1B10440000502929 /* UtilitiesResorces */,
 				C15F067A1B102C8100502929 /* Frameworks */,
@@ -734,7 +737,7 @@
 			isa = PBXGroup;
 			children = (
 				C15F04151B102C4400502929 /* libUtilities.a */,
-				C15F07D91B10440000502929 /* Utilites.bundle */,
+				C15F07D91B10440000502929 /* UtilitiesResorces.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1001,7 +1004,6 @@
 				C15F04B41B102C7000502929 /* JDFlipImageView.m */,
 				C15F04B51B102C7000502929 /* JDFlipNumberDigitView.h */,
 				C15F04B61B102C7000502929 /* JDFlipNumberDigitView.m */,
-				C15F04B71B102C7000502929 /* JDFlipNumberView.bundle */,
 				C15F04B81B102C7000502929 /* JDFlipNumberView.h */,
 				C15F04B91B102C7000502929 /* JDFlipNumberView.m */,
 				C15F04BA1B102C7000502929 /* JDFlipNumberViewImageFactory.h */,
@@ -1027,7 +1029,6 @@
 				C15F04C21B102C7000502929 /* Classes */,
 				C15F04D61B102C7000502929 /* Libraries */,
 				C15F051B1B102C7000502929 /* MWPhotoBrowser-Prefix.pch */,
-				C15F051C1B102C7000502929 /* MWPhotoBrowser.bundle */,
 			);
 			path = MWPhotoBrowser;
 			sourceTree = "<group>";
@@ -1194,19 +1195,8 @@
 			children = (
 				C15F053E1B102C7100502929 /* MARKRangeSlider.h */,
 				C15F053F1B102C7100502929 /* MARKRangeSlider.m */,
-				C15F05401B102C7100502929 /* Resources */,
 			);
 			path = Range;
-			sourceTree = "<group>";
-		};
-		C15F05401B102C7100502929 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C15F05411B102C7100502929 /* rangeSliderTrack.png */,
-				C15F05421B102C7100502929 /* rangeSliderTrack@2x.png */,
-				C15F05431B102C7100502929 /* rangeSliderTrack@3x.png */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		C15F05441B102C7100502929 /* Reachability */ = {
@@ -1221,8 +1211,6 @@
 		C15F05471B102C7100502929 /* RefreshControl */ = {
 			isa = PBXGroup;
 			children = (
-				C15F05481B102C7100502929 /* blueArrow.png */,
-				C15F05491B102C7100502929 /* blueArrow@2x.png */,
 				C15F054A1B102C7100502929 /* EGORefreshTableHeaderView.h */,
 				C15F054B1B102C7100502929 /* EGORefreshTableHeaderView.m */,
 			);
@@ -1340,6 +1328,20 @@
 				C1F6948C1B104AF600008B8B /* webServices.m */,
 			);
 			path = demoLib;
+			sourceTree = "<group>";
+		};
+		C1F694D51B10680A00008B8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1F694E01B1068A900008B8B /* blueArrow.png */,
+				C1F694E11B1068A900008B8B /* blueArrow@2x.png */,
+				C1F694DA1B10688400008B8B /* rangeSliderTrack.png */,
+				C1F694DB1B10688400008B8B /* rangeSliderTrack@2x.png */,
+				C1F694DC1B10688400008B8B /* rangeSliderTrack@3x.png */,
+				C1F694D81B10684700008B8B /* JDFlipNumberView.bundle */,
+				C1F694D61B10681C00008B8B /* MWPhotoBrowser.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1527,7 +1529,7 @@
 			);
 			name = UtilitiesResorces;
 			productName = UtilitiesResorces;
-			productReference = C15F07D91B10440000502929 /* Utilites.bundle */;
+			productReference = C15F07D91B10440000502929 /* UtilitiesResorces.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -1574,11 +1576,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F6947F1B10458300008B8B /* rangeSliderTrack.png in Resources */,
-				C1F694801B10458300008B8B /* rangeSliderTrack@2x.png in Resources */,
-				C1F694811B10458300008B8B /* rangeSliderTrack@3x.png in Resources */,
-				C1F694821B10458300008B8B /* blueArrow.png in Resources */,
-				C1F694831B10458300008B8B /* blueArrow@2x.png in Resources */,
+				C1F694DE1B10688400008B8B /* rangeSliderTrack@2x.png in Resources */,
+				C1F694DF1B10688400008B8B /* rangeSliderTrack@3x.png in Resources */,
+				C1F694D71B10681C00008B8B /* MWPhotoBrowser.bundle in Resources */,
+				C1F694E21B1068A900008B8B /* blueArrow.png in Resources */,
+				C1F694DD1B10688400008B8B /* rangeSliderTrack.png in Resources */,
+				C1F694E31B1068A900008B8B /* blueArrow@2x.png in Resources */,
+				C1F694D91B10684700008B8B /* JDFlipNumberView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1912,7 +1916,7 @@
 				INFOPLIST_FILE = UtilitiesResorces/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = Utilites;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
@@ -1927,7 +1931,7 @@
 				INFOPLIST_FILE = UtilitiesResorces/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = Utilites;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
