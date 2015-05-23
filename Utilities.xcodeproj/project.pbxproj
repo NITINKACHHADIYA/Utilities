@@ -668,6 +668,8 @@
 		C15F07D91B10440000502929 /* Utilites.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Utilites.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15F07DC1B10440000502929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1F694861B1045A600008B8B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		C1F6948B1B104AF600008B8B /* webServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = webServices.h; sourceTree = "<group>"; };
+		C1F6948C1B104AF600008B8B /* webServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webServices.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -721,6 +723,7 @@
 			children = (
 				C15F04171B102C4400502929 /* Utilities */,
 				C15F042C1B102C6F00502929 /* Library */,
+				C1F6948A1B104ADB00008B8B /* demoLib */,
 				C15F07DA1B10440000502929 /* UtilitiesResorces */,
 				C15F067A1B102C8100502929 /* Frameworks */,
 				C15F04161B102C4400502929 /* Products */,
@@ -1328,6 +1331,15 @@
 				C15F07DC1B10440000502929 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1F6948A1B104ADB00008B8B /* demoLib */ = {
+			isa = PBXGroup;
+			children = (
+				C1F6948B1B104AF600008B8B /* webServices.h */,
+				C1F6948C1B104AF600008B8B /* webServices.m */,
+			);
+			path = demoLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
