@@ -25,7 +25,6 @@
 #import "CTAssetsPageViewController.h"
 #import "DisplayMap.h"
 #import "Luhn.h"
-#import "PayPalMobile.h"
 
 @interface constant : NSObject
 
