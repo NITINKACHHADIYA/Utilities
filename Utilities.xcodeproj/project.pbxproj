@@ -325,6 +325,7 @@
 		C1F694DF1B10688400008B8B /* rangeSliderTrack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F694DC1B10688400008B8B /* rangeSliderTrack@3x.png */; };
 		C1F694E21B1068A900008B8B /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F694E01B1068A900008B8B /* blueArrow.png */; };
 		C1F694E31B1068A900008B8B /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F694E11B1068A900008B8B /* blueArrow@2x.png */; };
+		C1F694E61B1069AB00008B8B /* demo.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C1F694E51B1069AB00008B8B /* demo.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -432,7 +433,6 @@
 		C15F047A1B102C7000502929 /* constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = constant.m; sourceTree = "<group>"; };
 		C15F047C1B102C7000502929 /* CoreDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDatabase.h; sourceTree = "<group>"; };
 		C15F047D1B102C7000502929 /* CoreDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDatabase.m; sourceTree = "<group>"; };
-		C15F047F1B102C7000502929 /* test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test.xcdatamodel; sourceTree = "<group>"; };
 		C15F04811B102C7000502929 /* ALAsset+accessibilityLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAsset+accessibilityLabel.h"; sourceTree = "<group>"; };
 		C15F04821B102C7000502929 /* ALAsset+accessibilityLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAsset+accessibilityLabel.m"; sourceTree = "<group>"; };
 		C15F04831B102C7000502929 /* ALAsset+assetType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAsset+assetType.h"; sourceTree = "<group>"; };
@@ -468,7 +468,6 @@
 		C15F04A11B102C7000502929 /* NSDateFormatter+timeIntervalFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+timeIntervalFormatter.m"; sourceTree = "<group>"; };
 		C15F04A31B102C7000502929 /* DBConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBConnection.h; sourceTree = "<group>"; };
 		C15F04A41B102C7000502929 /* DBConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBConnection.m; sourceTree = "<group>"; };
-		C15F04A51B102C7000502929 /* demo.sqlite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = demo.sqlite; sourceTree = "<group>"; };
 		C15F04A71B102C7000502929 /* GlobalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalVariables.h; sourceTree = "<group>"; };
 		C15F04A81B102C7000502929 /* GlobalVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalVariables.m; sourceTree = "<group>"; };
 		C15F04AA1B102C7000502929 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
@@ -672,6 +671,8 @@
 		C1F694DC1B10688400008B8B /* rangeSliderTrack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rangeSliderTrack@3x.png"; sourceTree = "<group>"; };
 		C1F694E01B1068A900008B8B /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
 		C1F694E11B1068A900008B8B /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		C1F694E41B10696600008B8B /* test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test.xcdatamodel; sourceTree = "<group>"; };
+		C1F694E51B1069AB00008B8B /* demo.sqlite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = demo.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -918,7 +919,6 @@
 			children = (
 				C15F047C1B102C7000502929 /* CoreDatabase.h */,
 				C15F047D1B102C7000502929 /* CoreDatabase.m */,
-				C15F047E1B102C7000502929 /* test.xcdatamodeld */,
 			);
 			path = CoreDatabase;
 			sourceTree = "<group>";
@@ -968,7 +968,6 @@
 			children = (
 				C15F04A31B102C7000502929 /* DBConnection.h */,
 				C15F04A41B102C7000502929 /* DBConnection.m */,
-				C15F04A51B102C7000502929 /* demo.sqlite */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -1333,6 +1332,8 @@
 		C1F694D51B10680A00008B8B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C1F694E51B1069AB00008B8B /* demo.sqlite */,
+				C1F694E41B10696600008B8B /* test.xcdatamodel */,
 				C1F694E01B1068A900008B8B /* blueArrow.png */,
 				C1F694E11B1068A900008B8B /* blueArrow@2x.png */,
 				C1F694DA1B10688400008B8B /* rangeSliderTrack.png */,
@@ -1576,6 +1577,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F694E61B1069AB00008B8B /* demo.sqlite in Resources */,
 				C1F694DE1B10688400008B8B /* rangeSliderTrack@2x.png in Resources */,
 				C1F694DF1B10688400008B8B /* rangeSliderTrack@3x.png in Resources */,
 				C1F694D71B10681C00008B8B /* MWPhotoBrowser.bundle in Resources */,
@@ -1992,19 +1994,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		C15F047E1B102C7000502929 /* test.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				C15F047F1B102C7000502929 /* test.xcdatamodel */,
-			);
-			currentVersion = C15F047F1B102C7000502929 /* test.xcdatamodel */;
-			path = test.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = C15F040D1B102C4400502929 /* Project object */;
 }
