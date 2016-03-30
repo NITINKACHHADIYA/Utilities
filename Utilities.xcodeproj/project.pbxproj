@@ -23,6 +23,24 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		3162997C1CAB69B100388414 /* FBEncryptorAES.h in Headers */ = {isa = PBXBuildFile; fileRef = 316299701CAB69B100388414 /* FBEncryptorAES.h */; settings = {ASSET_TAGS = (); }; };
+		3162997D1CAB69B100388414 /* FBEncryptorAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 316299711CAB69B100388414 /* FBEncryptorAES.m */; settings = {ASSET_TAGS = (); }; };
+		3162997E1CAB69B100388414 /* FBEncryptorAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 316299711CAB69B100388414 /* FBEncryptorAES.m */; settings = {ASSET_TAGS = (); }; };
+		3162997F1CAB69B100388414 /* KAAPIs.h in Headers */ = {isa = PBXBuildFile; fileRef = 316299721CAB69B100388414 /* KAAPIs.h */; settings = {ASSET_TAGS = (); }; };
+		316299801CAB69B100388414 /* KAAPIs.m in Sources */ = {isa = PBXBuildFile; fileRef = 316299731CAB69B100388414 /* KAAPIs.m */; settings = {ASSET_TAGS = (); }; };
+		316299811CAB69B100388414 /* KAAPIs.m in Sources */ = {isa = PBXBuildFile; fileRef = 316299731CAB69B100388414 /* KAAPIs.m */; settings = {ASSET_TAGS = (); }; };
+		316299821CAB69B100388414 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 316299741CAB69B100388414 /* NSData+Base64.h */; settings = {ASSET_TAGS = (); }; };
+		316299831CAB69B100388414 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 316299751CAB69B100388414 /* NSData+Base64.m */; settings = {ASSET_TAGS = (); }; };
+		316299841CAB69B100388414 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 316299751CAB69B100388414 /* NSData+Base64.m */; settings = {ASSET_TAGS = (); }; };
+		316299851CAB69B100388414 /* NSData+sequrity.h in Headers */ = {isa = PBXBuildFile; fileRef = 316299761CAB69B100388414 /* NSData+sequrity.h */; settings = {ASSET_TAGS = (); }; };
+		316299861CAB69B100388414 /* NSData+sequrity.m in Sources */ = {isa = PBXBuildFile; fileRef = 316299771CAB69B100388414 /* NSData+sequrity.m */; settings = {ASSET_TAGS = (); }; };
+		316299871CAB69B100388414 /* NSData+sequrity.m in Sources */ = {isa = PBXBuildFile; fileRef = 316299771CAB69B100388414 /* NSData+sequrity.m */; settings = {ASSET_TAGS = (); }; };
+		316299881CAB69B100388414 /* UICKeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 316299781CAB69B100388414 /* UICKeyChainStore.h */; settings = {ASSET_TAGS = (); }; };
+		316299891CAB69B100388414 /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 316299791CAB69B100388414 /* UICKeyChainStore.m */; settings = {ASSET_TAGS = (); }; };
+		3162998A1CAB69B100388414 /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 316299791CAB69B100388414 /* UICKeyChainStore.m */; settings = {ASSET_TAGS = (); }; };
+		3162998B1CAB69B100388414 /* UIImage+animatedGIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 3162997A1CAB69B100388414 /* UIImage+animatedGIF.h */; settings = {ASSET_TAGS = (); }; };
+		3162998C1CAB69B100388414 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 3162997B1CAB69B100388414 /* UIImage+animatedGIF.m */; settings = {ASSET_TAGS = (); }; };
+		3162998D1CAB69B100388414 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 3162997B1CAB69B100388414 /* UIImage+animatedGIF.m */; settings = {ASSET_TAGS = (); }; };
 		C15F04191B102C4400502929 /* Utilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C15F04181B102C4400502929 /* Utilities.h */; };
 		C15F041B1B102C4400502929 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C15F041A1B102C4400502929 /* Utilities.m */; };
 		C15F05711B102C7100502929 /* DisplayMap.m in Sources */ = {isa = PBXBuildFile; fileRef = C15F04301B102C6F00502929 /* DisplayMap.m */; };
@@ -359,6 +377,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		316299701CAB69B100388414 /* FBEncryptorAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBEncryptorAES.h; sourceTree = "<group>"; };
+		316299711CAB69B100388414 /* FBEncryptorAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBEncryptorAES.m; sourceTree = "<group>"; };
+		316299721CAB69B100388414 /* KAAPIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAAPIs.h; sourceTree = "<group>"; };
+		316299731CAB69B100388414 /* KAAPIs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAAPIs.m; sourceTree = "<group>"; };
+		316299741CAB69B100388414 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		316299751CAB69B100388414 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		316299761CAB69B100388414 /* NSData+sequrity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+sequrity.h"; sourceTree = "<group>"; };
+		316299771CAB69B100388414 /* NSData+sequrity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+sequrity.m"; sourceTree = "<group>"; };
+		316299781CAB69B100388414 /* UICKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICKeyChainStore.h; sourceTree = "<group>"; };
+		316299791CAB69B100388414 /* UICKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICKeyChainStore.m; sourceTree = "<group>"; };
+		3162997A1CAB69B100388414 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		3162997B1CAB69B100388414 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		C15F04151B102C4400502929 /* libUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15F04181B102C4400502929 /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		C15F041A1B102C4400502929 /* Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
@@ -721,10 +751,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3162996F1CAB69B100388414 /* KAUtility */ = {
+			isa = PBXGroup;
+			children = (
+				316299701CAB69B100388414 /* FBEncryptorAES.h */,
+				316299711CAB69B100388414 /* FBEncryptorAES.m */,
+				316299721CAB69B100388414 /* KAAPIs.h */,
+				316299731CAB69B100388414 /* KAAPIs.m */,
+				316299741CAB69B100388414 /* NSData+Base64.h */,
+				316299751CAB69B100388414 /* NSData+Base64.m */,
+				316299761CAB69B100388414 /* NSData+sequrity.h */,
+				316299771CAB69B100388414 /* NSData+sequrity.m */,
+				316299781CAB69B100388414 /* UICKeyChainStore.h */,
+				316299791CAB69B100388414 /* UICKeyChainStore.m */,
+				3162997A1CAB69B100388414 /* UIImage+animatedGIF.h */,
+				3162997B1CAB69B100388414 /* UIImage+animatedGIF.m */,
+			);
+			path = KAUtility;
+			sourceTree = "<group>";
+		};
 		C15F040C1B102C4400502929 = {
 			isa = PBXGroup;
 			children = (
 				C15F04171B102C4400502929 /* Utilities */,
+				3162996F1CAB69B100388414 /* KAUtility */,
 				C15F042C1B102C6F00502929 /* Library */,
 				C1F694D51B10680A00008B8B /* Resources */,
 				C1F6948A1B104ADB00008B8B /* demoLib */,
@@ -1357,8 +1407,10 @@
 				C15F07911B102E1E00502929 /* ASIHTTPRequest.h in Headers */,
 				C15F07A51B102E1F00502929 /* Luhn.h in Headers */,
 				C15F07A61B102E1F00502929 /* constant.h in Headers */,
+				3162997C1CAB69B100388414 /* FBEncryptorAES.h in Headers */,
 				C15F07A71B102E1F00502929 /* GlobalVariables.h in Headers */,
 				C15F07B21B102E1F00502929 /* UIButton+WebCache.h in Headers */,
+				3162998B1CAB69B100388414 /* UIImage+animatedGIF.h in Headers */,
 				C15F07B31B102E2000502929 /* UIImage+GIF.h in Headers */,
 				C15F07B41B102E2000502929 /* UIImage+MultiFormat.h in Headers */,
 				C15F07B51B102E2000502929 /* UIImage+WebP.h in Headers */,
@@ -1382,8 +1434,10 @@
 				C15F074B1B102DEC00502929 /* NSDateFormatter+timeIntervalFormatter.h in Headers */,
 				C15F074C1B102DEC00502929 /* JASidePanelController.h in Headers */,
 				C15F074D1B102DEC00502929 /* UIViewController+JASidePanel.h in Headers */,
+				3162997F1CAB69B100388414 /* KAAPIs.h in Headers */,
 				C15F074F1B102DED00502929 /* JDFlipClockView.h in Headers */,
 				C15F07501B102DED00502929 /* JDFlipImageView.h in Headers */,
+				316299881CAB69B100388414 /* UICKeyChainStore.h in Headers */,
 				C15F07511B102DED00502929 /* JDFlipNumberDigitView.h in Headers */,
 				C15F07521B102DED00502929 /* JDFlipNumberView.h in Headers */,
 				C15F07551B102DED00502929 /* MBProgressHUD.h in Headers */,
@@ -1436,6 +1490,7 @@
 				C15F07AD1B102E1F00502929 /* SDWebImageDownloader.h in Headers */,
 				C15F07AE1B102E1F00502929 /* SDWebImageDownloaderOperation.h in Headers */,
 				C15F07AF1B102E1F00502929 /* SDWebImageManager.h in Headers */,
+				316299821CAB69B100388414 /* NSData+Base64.h in Headers */,
 				C15F07B01B102E1F00502929 /* SDWebImageOperation.h in Headers */,
 				C15F07B11B102E1F00502929 /* SDWebImagePrefetcher.h in Headers */,
 				C15F073D1B102DEC00502929 /* ALAsset+assetType.h in Headers */,
@@ -1485,6 +1540,7 @@
 				C15F079C1B102E1E00502929 /* ASICloudFilesObjectRequest.h in Headers */,
 				C15F079D1B102E1E00502929 /* ASICloudFilesRequest.h in Headers */,
 				C15F079E1B102E1E00502929 /* ASINSXMLParserCompat.h in Headers */,
+				316299851CAB69B100388414 /* NSData+sequrity.h in Headers */,
 				C15F079F1B102E1E00502929 /* ASIS3Bucket.h in Headers */,
 				C15F07A01B102E1E00502929 /* ASIS3BucketObject.h in Headers */,
 				C15F07A11B102E1E00502929 /* ASIS3BucketRequest.h in Headers */,
@@ -1660,9 +1716,11 @@
 				C15F05971B102C7100502929 /* ASIS3ObjectRequest.m in Sources */,
 				C15F065A1B102C7100502929 /* RTSpinKitArcAltAnimation.m in Sources */,
 				C15F05D91B102C7100502929 /* GlobalVariables.m in Sources */,
+				3162998C1CAB69B100388414 /* UIImage+animatedGIF.m in Sources */,
 				C15F06701B102C7100502929 /* RTSpinKitWanderingCubesAnimation.m in Sources */,
 				C15F05DF1B102C7100502929 /* JDDateCountdownFlipView.m in Sources */,
 				C15F05C11B102C7100502929 /* CTAssetsGroupViewCell.m in Sources */,
+				316299831CAB69B100388414 /* NSData+Base64.m in Sources */,
 				C15F05E51B102C7100502929 /* JDFlipNumberDigitView.m in Sources */,
 				C15F05891B102C7100502929 /* ASICloudFilesContainerXMLParserDelegate.m in Sources */,
 				C15F06601B102C7100502929 /* RTSpinKitChasingDotsAnimation.m in Sources */,
@@ -1672,6 +1730,7 @@
 				C15F05B11B102C7100502929 /* CoreDatabase.m in Sources */,
 				C15F06781B102C7100502929 /* RTSpinKitView.m in Sources */,
 				C15F062A1B102C7100502929 /* SDWebImageManager.m in Sources */,
+				316299891CAB69B100388414 /* UICKeyChainStore.m in Sources */,
 				C15F06261B102C7100502929 /* SDWebImageDownloader.m in Sources */,
 				C15F06661B102C7100502929 /* RTSpinKitFadingCircleAltAnimation.m in Sources */,
 				C15F05B71B102C7100502929 /* ALAsset+assetType.m in Sources */,
@@ -1708,6 +1767,7 @@
 				C15F05711B102C7100502929 /* DisplayMap.m in Sources */,
 				C15F06141B102C7100502929 /* PSTGridLayoutInfo.m in Sources */,
 				C15F05BB1B102C7100502929 /* ALAssetsGroup+isEqual.m in Sources */,
+				3162997D1CAB69B100388414 /* FBEncryptorAES.m in Sources */,
 				C15F05871B102C7100502929 /* ASICloudFilesContainerRequest.m in Sources */,
 				C15F061A1B102C7100502929 /* PSTGridLayoutSection.m in Sources */,
 				C15F058D1B102C7100502929 /* ASICloudFilesObjectRequest.m in Sources */,
@@ -1732,6 +1792,7 @@
 				C15F05AB1B102C7100502929 /* UIimageView+Border.m in Sources */,
 				C15F06381B102C7100502929 /* UIImageView+WebCache.m in Sources */,
 				C15F06681B102C7100502929 /* RTSpinKitFadingCircleAnimation.m in Sources */,
+				316299801CAB69B100388414 /* KAAPIs.m in Sources */,
 				C15F06121B102C7100502929 /* PSTCollectionViewUpdateItem.m in Sources */,
 				C15F066C1B102C7100502929 /* RTSpinKitPulseAnimation.m in Sources */,
 				C15F05CC1B102C7100502929 /* CTAssetsSupplementaryView.m in Sources */,
@@ -1751,6 +1812,7 @@
 				C15F06061B102C7100502929 /* PSTCollectionViewCell.m in Sources */,
 				C15F05931B102C7100502929 /* ASIS3BucketObject.m in Sources */,
 				C15F06081B102C7100502929 /* PSTCollectionViewController.m in Sources */,
+				316299861CAB69B100388414 /* NSData+sequrity.m in Sources */,
 				C15F061E1B102C7100502929 /* NSData+ImageContentType.m in Sources */,
 				C15F05771B102C7100502929 /* ASIDataDecompressor.m in Sources */,
 			);
@@ -1760,6 +1822,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				316299871CAB69B100388414 /* NSData+sequrity.m in Sources */,
+				3162998D1CAB69B100388414 /* UIImage+animatedGIF.m in Sources */,
+				316299811CAB69B100388414 /* KAAPIs.m in Sources */,
+				3162997E1CAB69B100388414 /* FBEncryptorAES.m in Sources */,
+				3162998A1CAB69B100388414 /* UICKeyChainStore.m in Sources */,
+				316299841CAB69B100388414 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
